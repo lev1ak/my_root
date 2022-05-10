@@ -1,0 +1,115 @@
+* {
+      padding: 0;
+      margin: 0;
+      font-family: 'Akshar', sans-serif; 
+     
+}
+
+
+header {
+    background: #102e48;
+    height: 100px;
+    padding: 0 20px;
+    color: #fff;
+
+}
+
+.nav a {
+    position: relative;
+    top: 2px;
+    
+}
+.icon {
+    line-height: 100px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 40px; 
+    padding-right: 30px;
+}
+.buscador {
+    display: flex;
+    width: 200px;
+    height: 20px;
+    position: relative;
+    padding-top: 45px;
+    padding-left: 400px;
+    
+    
+}
+.buscador i {
+    display: flex;
+    width: 30px;
+
+}
+
+.menu {
+    display: flex;
+   justify-content: flex-start;
+    line-height: 100px;
+    align-items: flex-start;
+    
+}
+.flex-item {
+   text-align: center;
+    
+}
+
+.menu a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 20px;
+    transition: 0.4s;
+    font-size: 30px;
+
+}
+.menu-mostrado,.menu-oculto {
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+
+}
+.menu.mostrado {
+    float: right;
+}
+
+.menu-mostrado i {
+    line-height: 100px;
+}
+.menu a:hover,
+ .menu-mostrado:hover,
+ .meno-oculto {
+             color: #3498db;
+
+}
+main {
+    background-color: rgb(19, 74, 92);
+}
+footer{
+    background-color: #102e48;
+}
+.cartelera {
+    border: 5px solid #102e48;
+    
+}
+.principal {
+    color: #fff;
+    display: block;
+
+    
+}
+.principal h2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+table {
+    color: #fff;
+    border: 2px solid #067bc4;
+    display: grid;
+    
+
+}
+.tlqq {
+    color: #fff;
+}
